@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>AlertCookies</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 </head>
 <body>
+<main>
+    <section>
+        <h1 id="title">
+            Please enter the following information.
+        </h1>
+        <form name="frm1">
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname" id="firstname" required autofocus><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" id="lastname" required ><br>
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address" required ><br>
+            <label for="phone">Phone #:</label>
+            <input type="tel" name="phone" id="phone"><br>
+            <label for="car">Car Type:</label>
+            <input type="text" name="car" id="car"><br>
+            <input type="submit" name="submit" id="button"  value="Submit" onclick="submitValues()">
+        </form>
+    </section>
+</main>
 
 </body>
 </html>
